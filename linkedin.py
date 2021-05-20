@@ -15,8 +15,8 @@ from webdriver_manager.chrome import ChromeDriverManager
  
 # step 1 change this from : https://docs.google.com/document/d/1YiPKlYkzGMO08HfpZuOZ-S4B-t6KrA7-Xe1x1ElFmnk/edit?usp=sharing
 links = [
-    "https://www.linkedin.com/posts/sidd-oo_100daysofcode-devsnestday21-devsnest6monthschallenge-activity-6789459261542973440-x7FX/",
-    "https://www.linkedin.com/posts/ross-nelson-32493684_devsnest6monthschallenge-devsnestday21-slowandsteady-activity-6788661474186338304-Dx0z"
+    "https://www.linkedin.com/feed/update/urn:li:activity:6759528723201978368/",
+    "https://www.linkedin.com/feed/update/urn:li:activity:6755895890717765633/"
 ]
 #step 2 : run code , check if you are logged in (if not, then login) then press 1 in console
 #step 3 : the code shoud take care of the rest add your posts that you would want to get liked
