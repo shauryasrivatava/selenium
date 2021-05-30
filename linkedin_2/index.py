@@ -5,7 +5,10 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.keys import Keys
 import base64
 
+# step 0 : you need chrome for this. Also install modules :
+# pip install selenium && pip install webdriver_manager && pip install tinydb
 options = webdriver.ChromeOptions()
+#uncomment the code below if you want to login via storing cache memory
 # options.add_argument("user-data-dir={}\driver_data".format(os.getcwd()))
 
 driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=options)
